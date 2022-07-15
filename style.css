@@ -274,7 +274,7 @@ footer img{
     filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(673%) hue-rotate(260deg) brightness(122%) contrast(95%);
 }
 @media screen and (max-width: 600px) {
-    .navbar-s2{
+    .navbar-s2 li  a{
         display: none;
     }
     #sobre{
