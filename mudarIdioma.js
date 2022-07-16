@@ -1,0 +1,66 @@
+const sobreTitleText = document.querySelectorAll('.sobre-menu-texto')
+const sobreMim = document.querySelectorAll('.sobre-mim')
+const Conhecimentos = document.querySelectorAll('.c-menu-texto')
+const Avancado = document.querySelectorAll('.avancado-texto')
+const Inter = document.querySelectorAll('.inter-texto')
+const Iniciante = document.querySelectorAll('.iniciante-texto')
+const ProjetosTitleText = document.querySelectorAll('.projetos-menu-texto')
+const Proj1Desc = document.querySelector('.p1-desc')
+const Proj2Desc = document.querySelector('.p2-desc')
+const Proj3Desc = document.querySelector('.p3-desc')
+const Proj4Desc = document.querySelector('.p4-desc')
+const Proj5Desc = document.querySelector('.p5-desc')
+const Proj6Desc = document.querySelector('.p6-desc')
+const FooterText = document.querySelector('.footer-texto')
+const ContactButton = document.querySelector('.contato-botao')
+
+document.getElementById('english').addEventListener('click', ()=>{
+
+    sobreTitleText[0].textContent = 'About'
+    sobreTitleText[1].textContent = 'About'
+    sobreMim[0].textContent = "Hello! I'm 18 years old and I've always had a fascination with the world of Computing, since the first time I had contact with a computer, whether playing happy farm on Facebook as a child or today programming, I knew that was for me. I started my studies at 12 years and at 14 I started to provide computer maintenance services, I did this until I was 16, when I knew the programming since then I study to become better and better. In 2022 I started studying Computer Science this is my current occupation."
+    Conhecimentos[0].textContent = 'My Knowledge'
+    Conhecimentos[1].textContent = 'My Knowledge'
+    Avancado[0].textContent = "Advanced" 
+    Avancado[1].textContent = "Advanced" 
+    Avancado[2].textContent = "Advanced" 
+    Avancado[3].textContent = "Advanced" 
+    Inter[0].textContent = "Intermediary"
+    Inter[1].textContent = "Intermediary"
+    Iniciante[0].textContent = "Beginner"
+    ProjetosTitleText[0].textContent = "Projects"
+    ProjetosTitleText[1].textContent = "Projects"
+    Proj1Desc.textContent = "Full Pokedex in Javascript"
+    Proj2Desc.textContent = "Dictionary using DicioAPI"
+    Proj3Desc.textContent = " Whatsapp Clone in React"
+    Proj4Desc.textContent = " Apple sales page Clone"
+    Proj5Desc.textContent = "Netflix Clone in React"
+    Proj6Desc.textContent = "Music Player with Spotify Style"
+    FooterText.textContent = "Made by Caio Souza Silva"
+    ContactButton.textContent = "Contact-me"
+})
+document.getElementById('portuguese').addEventListener('click', ()=>{
+
+    sobreTitleText[0].textContent = 'Sobre'
+    sobreTitleText[1].textContent = 'Sobre'
+    sobreMim[0].textContent = "Ola! Tenho 18 anos e sempre tive fascínio pelo mundo da Computação, desde a primeira vez que tive contato com um computador, seja jogando fazenda feliz no Facebook quando criança ou hoje programando, sabia que aquilo era pra mim. Iniciei meus estudos aos 12 anos e aos 14 comecei a prestar serviços de manutenção de computadores, fiz isso até os 16, quando conheci a programação desde então estudo para me tornar cada vez melhor. Em 2022 comecei a cursar Ciência da Computação essa é minha ocupação atual."
+    Conhecimentos[0].textContent = 'Conhecimentos'
+    Conhecimentos[1].textContent = 'Conhecimentos'
+    Avancado[0].textContent = "Avançado" 
+    Avancado[1].textContent = "Avançado" 
+    Avancado[2].textContent = "Avançado" 
+    Avancado[3].textContent = "Avançado" 
+    Inter[0].textContent = "Intermediário"
+    Inter[1].textContent = "Intermediário"
+    Iniciante[0].textContent = "Iniciante"
+    ProjetosTitleText[0].textContent = "Projetos"
+    ProjetosTitleText[1].textContent = "Projetos"
+    Proj1Desc.textContent = "Pokedex completa em Javascript"
+    Proj2Desc.textContent = "Dicionario utilizando a DicioAPI"
+    Proj3Desc.textContent = "Clone Whatsapp em React"
+    Proj4Desc.textContent = "Clone pagina de vendas Apple"
+    Proj5Desc.textContent = "Clone Netflix em React"
+    Proj6Desc.textContent = "Player de Música estilo Spotify"
+    FooterText.textContent = "Feito por Caio Souza Silva"
+    ContactButton.textContent = "Contato"
+}) 

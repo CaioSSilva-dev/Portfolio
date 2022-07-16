@@ -31,11 +31,21 @@ body{
     color: #f5f5f5;
     font-size: 1rem;
 }
+.navbar-s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .navbar-s2 ul{
     display: flex;
     list-style: none;
     align-items: center;
     gap: 15px;
+}
+.navbar-s2 ul a{
+    text-decoration: none;
+    color: #193646;
 }
 .navbar-s2 li a{
     color: #f5f5f5;
@@ -47,7 +57,7 @@ body{
 }
 .navbar-s2 button{
     height: 30px;
-    width: 80px;
+    width: 90px;
     padding: 5px;
     border-radius: 5px;
     border: none;
@@ -273,9 +283,21 @@ footer img{
     width: 30px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(673%) hue-rotate(260deg) brightness(122%) contrast(95%);
 }
+.switcher-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.switcher-content img{
+    width: 25px;
+    cursor: pointer;
+}
 @media screen and (max-width: 600px) {
     .navbar-s2 li  a{
         display: none;
+    }
+    .navbar-s2 ul{
+        gap: 0;
     }
     #sobre{
         justify-content: center;
