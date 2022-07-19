@@ -17,6 +17,7 @@ body{
     height: 45px;
     overflow: hidden;
     box-shadow: 0px 3px 20px #1936468c;
+    z-index: 2;
 }
 .navbar-s1{
     display: flex;
