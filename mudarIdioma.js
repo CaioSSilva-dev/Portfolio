@@ -11,6 +11,7 @@ const Proj3Desc = document.querySelector('.p3-desc')
 const Proj4Desc = document.querySelector('.p4-desc')
 const Proj5Desc = document.querySelector('.p5-desc')
 const Proj6Desc = document.querySelector('.p6-desc')
+const Proj7Desc = document.querySelector('.p7-desc')
 const FooterText = document.querySelector('.footer-texto')
 const ContactButton = document.querySelector('.contato-botao')
 
@@ -36,6 +37,7 @@ document.getElementById('english').addEventListener('click', ()=>{
     Proj4Desc.textContent = " Apple sales page Clone"
     Proj5Desc.textContent = "Netflix Clone in React"
     Proj6Desc.textContent = "Music Player with Spotify Style"
+    Proj7Desc.textContent = "A BookStore in Angular"
     FooterText.textContent = "Made by Caio Souza Silva"
     ContactButton.textContent = "Contact-me"
 })
@@ -61,6 +63,7 @@ document.getElementById('portuguese').addEventListener('click', ()=>{
     Proj4Desc.textContent = "Clone pagina de vendas Apple"
     Proj5Desc.textContent = "Clone Netflix em React"
     Proj6Desc.textContent = "Player de Música estilo Spotify"
+    Proj7Desc.textContent = "Loja de livros em Angular"
     FooterText.textContent = "Feito por Caio Souza Silva"
     ContactButton.textContent = "Contato"
 }) 
