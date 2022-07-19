@@ -157,8 +157,6 @@ body{
     max-width: 200px;
     animation: rotate 2s ease infinite;
 }
-.me-info img:hover{
-}
 @keyframes rotate{
     0%{
         transform: rotate(0deg);
