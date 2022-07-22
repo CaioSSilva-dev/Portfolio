@@ -249,7 +249,7 @@ body{
     width: 250px;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px 0px 20px 20px;
+    margin: 20px;
     background-color: #f5f5f5;
 }
 .projeto button{
@@ -332,6 +332,10 @@ footer img{
     margin: 0 auto;
     filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(75%) hue-rotate(346deg) brightness(115%) contrast(95%);
     transform: rotate(180deg);
+}
+#right-btn:hover{
+    background-color: #1b454b;
+    cursor: pointer;
 }
 .carrossel{
     transition: .2s;
