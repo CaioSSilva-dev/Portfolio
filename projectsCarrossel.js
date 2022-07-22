@@ -7,7 +7,7 @@ const Container = document.getElementById('projetos')
 let Index = 0;
 
 right.addEventListener('click',()=>{
-    if(Index < 1980){
+    if(Index < carrousel.scrollWidth - 580){
         x = Math.round(carrousel.scrollWidth / project.length)
         Index = Index + x;
         carrousel.style.marginLeft = "-" + Index + "px";
