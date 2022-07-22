@@ -225,6 +225,8 @@ body{
 }
 #projetos{
     margin: 0 auto;
+    overflow: hidden;
+    transition: .2s;
     padding-top: 5px;
     padding-bottom: 30px;
     width: 80%;
@@ -239,16 +241,15 @@ body{
     margin-bottom: 0;
 }
 #projetos > div{
+    width: max-content;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 25px;
 }
 .projeto{
     width: 250px;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 20px 0px 20px 20px;
     background-color: #f5f5f5;
 }
 .projeto button{
@@ -308,6 +309,34 @@ footer img{
     width: 25px;
     cursor: pointer;
 }
+.buttons{
+    margin-top: 115px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    width: inherit;
+}
+#right-btn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    content: "";
+    background-color: #2a6169;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 0px 10px;
+    border-radius: 20px;
+}
+#right-btn img{
+    width:50%;
+    margin: 0 auto;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(75%) hue-rotate(346deg) brightness(115%) contrast(95%);
+    transform: rotate(180deg);
+}
+.carrossel{
+    transition: .2s;
+    margin: 20px 20px 20px 0px;
+}
 @media screen and (max-width: 600px) {
     .navbar-s2 li  a{
         display: none;
@@ -338,10 +367,6 @@ footer img{
     }
     #projetos{
         width: 90%;
-    }
-    #projetos > div{
-        width: 100%;
-        margin: 0;
     }
     footer p{
         display: none;
