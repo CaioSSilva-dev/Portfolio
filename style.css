@@ -215,9 +215,11 @@ body{
     border: 2px white solid;
     font-weight: 700;
     background-color: transparent;
+    pointer-events: none;
 }
 .c-comp img{
     width: 60px;
+    pointer-events: none;
 }
 .c-comp button:hover{
     background-color: white;
