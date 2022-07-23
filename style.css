@@ -141,8 +141,8 @@ body{
 }
 .bottom-rainbow {
     width: 100%;
-    height: 5px;
-    background: repeating-linear-gradient(to right, #8aff66 0%, #8aff66 12.5%, #ffee51 12.5%, #ffee51 25%, #ffc336 25%, #ffc336 37.5%, #ec3828 37.5%, #ec3828 50%, #e66aac 50%, #e66aac 62.5%, #a754df 62.5%, #a754df 75%, #4587e4 75%, #4587e4 87.5%, #32b3e2 87.5%, #32b3e2 100%), white;
+    height: 4px;
+    background: repeating-linear-gradient(to right, #38a02e 0%, #38a02e 12.5%, #ffee51 12.5%, #ffee51 25%, #ffc336 25%, #ffc336 37.5%, #ec3828 37.5%, #ec3828 50%, #e66aac 50%, #e66aac 62.5%, #a754df 62.5%, #a754df 75%, #4587e4 75%, #4587e4 87.5%, #32b3e2 87.5%, #32b3e2 100%), white;
     background-size: 100% 10px, 100% 100%;
     background-repeat: no-repeat;
 }
