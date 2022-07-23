@@ -15,6 +15,7 @@ const Proj7Desc = document.querySelector('.p7-desc')
 const FooterText = document.querySelector('.footer-texto')
 const ContactButton = document.querySelector('.contato-botao')
 const CertificationsText = document.querySelectorAll('.cert-texto')
+const progressImage = document.querySelector('.prog-img');
 
 document.getElementById('english').addEventListener('click', ()=>{
 
@@ -43,6 +44,7 @@ document.getElementById('english').addEventListener('click', ()=>{
     ContactButton.textContent = "Contact-me"
     CertificationsText[0].textContent = "Certifications"
     CertificationsText[1].textContent = "Certifications"
+    progressImage.src = "image/Progress.png"
 })
 document.getElementById('portuguese').addEventListener('click', ()=>{
 
@@ -71,4 +73,5 @@ document.getElementById('portuguese').addEventListener('click', ()=>{
     ContactButton.textContent = "Contato"
     CertificationsText[0].textContent = "Certificações"
     CertificationsText[1].textContent = "Certificações"
+    progressImage.src = "image/Progresso.png"
 }) 
