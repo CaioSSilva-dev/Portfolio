@@ -29,8 +29,12 @@ left.addEventListener('click',()=>{
 window.addEventListener("resize",()=>{
     if(carrousel.scrollWidth < Container.offsetWidth){
         right.style.display = "none";
+        left.style.display = "none";
+        carrousel.style.margin = "0px auto"
     }
     else{
         right.style.display = "flex";
+        left.style.display = "flex";
+        carrousel.style.margin = "20px 20px 20px 0px";
     }
 })
