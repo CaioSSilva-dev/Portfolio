@@ -14,6 +14,7 @@ const Proj6Desc = document.querySelector('.p6-desc')
 const Proj7Desc = document.querySelector('.p7-desc')
 const FooterText = document.querySelector('.footer-texto')
 const ContactButton = document.querySelector('.contato-botao')
+const CertificationsText = document.querySelectorAll('.cert-texto')
 
 document.getElementById('english').addEventListener('click', ()=>{
 
@@ -40,6 +41,8 @@ document.getElementById('english').addEventListener('click', ()=>{
     Proj7Desc.textContent = "A BookStore in Angular"
     FooterText.textContent = "Made by Caio Souza Silva"
     ContactButton.textContent = "Contact-me"
+    CertificationsText[0].textContent = "Certifications"
+    CertificationsText[1].textContent = "Certifications"
 })
 document.getElementById('portuguese').addEventListener('click', ()=>{
 
@@ -66,4 +69,6 @@ document.getElementById('portuguese').addEventListener('click', ()=>{
     Proj7Desc.textContent = "Loja de livros em Angular"
     FooterText.textContent = "Feito por Caio Souza Silva"
     ContactButton.textContent = "Contato"
+    CertificationsText[0].textContent = "Certificações"
+    CertificationsText[1].textContent = "Certificações"
 }) 
