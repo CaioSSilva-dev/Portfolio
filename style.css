@@ -441,6 +441,9 @@ footer img{
     .c-container img{
         width: 270px;
     }
+    #certificaçoes{
+        width: 90%;
+    }
 }
 @media (min-width: 601px) and (max-width: 1500px) {
     .me-info img{
