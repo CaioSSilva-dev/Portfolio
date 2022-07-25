@@ -5,7 +5,12 @@ body{
     margin: 0;
     padding: 0;
 }
-
+:root{
+    --black-blue: #193646;
+    --light-gray: #f5f5f5;
+    --dark-gray: #dddddd;
+    --shadow-blue: #1936468c;
+}
 .navbar{
     top: 0;
     width: 100%;
@@ -13,10 +18,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #193646;
+    background-color: var(--black-blue);
     height: 45px;
     overflow: hidden;
-    box-shadow: 0px 3px 20px #1936468c;
+    box-shadow: 0px 3px 20px var(--shadow-blue);
     z-index: 2;
 }
 .navbar-s1{
@@ -29,7 +34,7 @@ body{
     margin-right: 10px;
 }
 .navbar-s1 h1{
-    color: #f5f5f5;
+    color: var(--light-gray);
     font-size: 1rem;
 }
 .navbar-s2{
@@ -46,15 +51,15 @@ body{
 }
 .navbar-s2 ul a{
     text-decoration: none;
-    color: #193646;
+    color: var(--black-blue);
 }
 .navbar-s2 li a{
-    color: #f5f5f5;
+    color: var(--light-gray);
     text-decoration: none;
     cursor: pointer;
 }
 .navbar-s2 li a:hover{
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid var(--light-gray);
 }
 .navbar-s2 button{
     height: 30px;
@@ -63,12 +68,12 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    color: #0e2225;
+    color: var(--black-blue);
     font-weight: 700;
-    background-color: #f5f5f5;
+    background-color: var(--light-gray);
 }
 .navbar-s2 button:hover{
-    background-color: #e6e6e6;
+    background-color: var(--dark-gray);
 }
 #sobre{
     display: flex;
@@ -84,8 +89,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: #193646;
+    color: var(--light-gray);
+    background-color: var(--black-blue);
     font-size: 14px;
 }
 .me-draw-div img{
@@ -104,7 +109,7 @@ body{
     width: 2px;
     height: 65%;
     margin-top: 14px;
-    background: #ffffff;
+    background: var(--light-gray);
     animation: Blink 0.8s steps(3) infinite;
 }
 @keyframes Blink{
@@ -133,7 +138,7 @@ body{
     margin-top: 95px;
     width: 40%;
     height: max-content;
-    background-color: #f5f5f5;
+    background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -164,7 +169,7 @@ body{
     padding: 5px 25px 25px;
 }
 .me-info h1{
-    color: #0e2225;
+    color: var(--black-blue);
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px;
@@ -200,12 +205,12 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     width: 80%;
-    background-color: #f5f5f5;
+    background-color: var(--light-gray);
     text-align: center;
 }
 #conhecimentos h1{
     font-size: 30px;
-    color: #0e2225;
+    color: var(--black-blue);
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -219,9 +224,9 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     width: 150px;
-    background-color: #193646;
+    background-color: var(--black-blue);
     border-radius: 5px;
-    color: #ffffff;
+    color: var(--light-gray);
 }
 .c-comp button{
     height: 30px;
@@ -230,19 +235,17 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    color: white;
-    border: 2px white solid;
+    color: var(--light-gray);
+    border: 2px var(--light-gray) solid;
     font-weight: 700;
     background-color: transparent;
-    pointer-events: none;
 }
 .c-comp img{
     width: 60px;
-    pointer-events: none;
 }
 .c-comp button:hover{
-    background-color: white;
-    color: #0e2225;
+    background-color: var(--light-gray);
+    color: var(--black-blue);
 }
 #projetos{
     margin: 0 auto;
@@ -251,13 +254,13 @@ body{
     padding-top: 5px;
     padding-bottom: 30px;
     width: 80%;
-    background-color: #193646;
+    background-color: var(--black-blue);
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 #projetos > h1{
-    color: white;
+    color: var(--light-gray);
     font-size: 30px;
     margin-bottom: 0;
 }
@@ -271,7 +274,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0px 20px 25px;
-    background-color: #f5f5f5;
+    background-color: var(--light-gray);
 }
 .projeto button{
     height: 30px;
@@ -280,14 +283,14 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    color: #193646;
-    border: 2px #193646 solid;
+    color: var(--black-blue);
+    border: 2px var(--black-blue) solid;
     font-weight: 700;
     background-color: transparent;
 }
 .projeto button:hover{
-    background-color: #193646;
-    color: white;
+    background-color: var(--black-blue);
+    color: var(--light-gray);
 }
 footer{
     position: fixed;
@@ -299,7 +302,7 @@ footer{
     align-items: center;
     height: 45px;
     width: 100%;
-    background-color: #193646;
+    background-color: var(--black-blue);
 }
 footer > div{
     display: flex;
@@ -315,7 +318,7 @@ footer a {
 footer p{
     margin-top: 0;
     margin-bottom: 0;
-    color: #f5f5f5;
+    color: var(--light-gray);
 }
 footer img{
     width: 30px;
@@ -375,14 +378,14 @@ footer img{
     margin: 0 auto;
     padding-top: 20px;
     width: 80%;
-    background-color: #f5f5f5;
+    background-color: var(--light-gray);
     text-align: center;
     margin-bottom: 95px;
     overflow: hidden;
 }
 #certificaçoes h1{
     font-size: 30px;
-    color: #0e2225;
+    color: var(--black-blue);
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -407,7 +410,7 @@ footer img{
 }
 .progress{
     width: 100%;
-    background-color: #193646;
+    background-color: var(--black-blue);
     height: 5px;
     animation: progress 5s infinite ease;
 }
