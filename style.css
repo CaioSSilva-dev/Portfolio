@@ -168,6 +168,26 @@ body{
     align-items: center;
     padding: 5px 25px 25px;
 }
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.me-info > div button{
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: #193646;
+    font-weight: 650;
+    border: 2px #193646 solid;
+}
+.me-info > div button:hover{
+    cursor: pointer;
+    background-color: #193646;
+    color: white;
+}
 .me-info h1{
     color: var(--black-blue);
     margin-top: 0;
